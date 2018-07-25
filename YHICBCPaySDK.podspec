@@ -5,7 +5,7 @@ Pod::Spec.new do |s|
   s.version      = "1.0.0"
   s.summary      = "工行e支付SDK"
 
-  s.description  = "工行e支付SDK "
+  s.description  = "工行e支付SDK，包含微信支付SDK、支付宝支付"
 
   s.homepage     = "https://github.com/XmYlzYhkj/YHICBCPaySDK"
 
@@ -18,10 +18,16 @@ Pod::Spec.new do |s|
 
   #s.source_files  = "Classes", "Classes/*"
 
-  s.resources    = 'Resources/ICBCPaySDK.bundle'
-
   s.requires_arc = true
+
+  s.frameworks       = 'SystemConfiguration', 'CoreMotion','CFNetwork', 'CoreTelephony', 'QuartzCore', 'CoreText', 'CoreGraphics', 'UIKit', 'Foundation'
+
+  s.libraries        = 'z', 'c++', 'sqlite3'
 
   s.vendored_frameworks = ["Frameworks/ICBCPaySDK.framework"]
   
+  s.resources    = 'Resources/ICBCPaySDK.bundle'
+
+  s.dependency     'YHAlipaySDK', '15.5.2'
+
 end
