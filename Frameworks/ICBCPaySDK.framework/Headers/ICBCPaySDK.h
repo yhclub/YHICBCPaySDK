@@ -8,7 +8,6 @@
 
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
-#import "WXApi.h"
 typedef NS_ENUM(NSInteger,PayWay) {
     ICBCePay   = 22,
     WeChatPay = 23,
@@ -35,7 +34,7 @@ typedef NS_ENUM(NSInteger,PayWay) {
 @end
 
 /** 单例作为微信支付的代理 */
-@interface ICBCPaySDK : NSObject<WXApiDelegate>
+@interface ICBCPaySDK : NSObject
 
 /**
  *  单例sdk

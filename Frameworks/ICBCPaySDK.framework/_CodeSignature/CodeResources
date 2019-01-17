@@ -6,27 +6,15 @@
 	<dict>
 		<key>Headers/ICBCPaySDK.h</key>
 		<data>
-		l/it0W+L77JnGBsfXokuTaIvBQ4=
-		</data>
-		<key>Headers/WXApi.h</key>
-		<data>
-		AJOJDLYT/6pmAMsrndo6aMWY/4E=
-		</data>
-		<key>Headers/WXApiObject.h</key>
-		<data>
-		2pBu/6A0WUTaB6tHV34H/On5+ZE=
+		cQxx9I5D+LtoNNpDmb2w+iB2WcM=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		cbkcqQDuPVnX0GbF1Rp97bzHpsU=
+		mwYqhcohbDinIDGQx7ws91g7B8g=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
 		9MmF3qSkBrtwhNHAsfhy43QLFo0=
-		</data>
-		<key>README.txt</key>
-		<data>
-		HtupWpoVxbYATcgQhADbmTU7+9g=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -35,33 +23,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			l/it0W+L77JnGBsfXokuTaIvBQ4=
+			cQxx9I5D+LtoNNpDmb2w+iB2WcM=
 			</data>
 			<key>hash2</key>
 			<data>
-			jIGuDfAHhbKS5I/Bu/yJgLGcPvfi0R1YUDipaccweo0=
-			</data>
-		</dict>
-		<key>Headers/WXApi.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			AJOJDLYT/6pmAMsrndo6aMWY/4E=
-			</data>
-			<key>hash2</key>
-			<data>
-			qz5jfG0MHzMoVILwFkz3bEkCthvyMDf/6/9yGBdCYR0=
-			</data>
-		</dict>
-		<key>Headers/WXApiObject.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			2pBu/6A0WUTaB6tHV34H/On5+ZE=
-			</data>
-			<key>hash2</key>
-			<data>
-			ryUXfM8QsT6mC23jF6T7fOWmQwbc/sPyrmSS4c4gwXg=
+			lXfH0mnnzdvFPS2JJLdQpM9yptOeiCZ+KyDHLZoun7I=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -73,17 +39,6 @@
 			<key>hash2</key>
 			<data>
 			2nYhMs4HbD2uxr251u7TBlPEZvuFsqWigUB7Ab5TR8I=
-			</data>
-		</dict>
-		<key>README.txt</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			HtupWpoVxbYATcgQhADbmTU7+9g=
-			</data>
-			<key>hash2</key>
-			<data>
-			xPl15ai7dL4v6GteR1PWuogOTc/rYoS2vgfFml8oOqk=
 			</data>
 		</dict>
 	</dict>

@@ -2,7 +2,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "YHICBCPaySDK"
-  s.version      = "1.0.0"
+  s.version      = "1.0.1"
   s.summary      = "工行e支付SDK"
 
   s.description  = "工行e支付SDK，包含微信支付SDK、支付宝支付"
@@ -29,5 +29,9 @@ Pod::Spec.new do |s|
   s.resources    = 'Resources/ICBCPaySDK.bundle'
 
   s.dependency     'YHAlipaySDK', '15.5.2'
+
+  s.dependency     'AFNetworking', '~> 3.0'
+
+  s.dependency     'Toast', '~> 4.0.0'
 
 end
