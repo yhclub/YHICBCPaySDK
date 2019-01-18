@@ -32,6 +32,8 @@ Pod::Spec.new do |s|
 
   s.dependency     'AFNetworking', '~> 3.0'
 
-  s.dependency     'Toast', '~> 4.0.0'
+  s.dependency     'Toast', '4.0.0'
+
+  s.dependency     'GTMBase64', '1.0.1'
 
 end
