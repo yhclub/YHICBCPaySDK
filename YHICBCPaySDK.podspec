@@ -2,7 +2,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "YHICBCPaySDK"
-  s.version      = "1.0.1"
+  s.version      = "1.0.2"
   s.summary      = "工行e支付SDK"
 
   s.description  = "工行e支付SDK，包含微信支付SDK、支付宝支付"
@@ -14,7 +14,7 @@ Pod::Spec.new do |s|
   s.author       = { "XmYhkj" => "yhkj_xm@163.com" }
   s.platform     = :ios, "8.0"
 
-  s.source       = { :git => "https://github.com/XmYlzYhkj/YHICBCPaySDK.git", :tag => "1.0.0" }
+  s.source       = { :git => "https://github.com/XmYlzYhkj/YHICBCPaySDK.git", :tag => s.version.to_s }
 
   #s.source_files  = "Classes", "Classes/*"
 
