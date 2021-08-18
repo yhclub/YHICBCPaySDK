@@ -2,7 +2,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "YHICBCPaySDK"
-  s.version      = "1.0.5"
+  s.version      = "1.0.6"
   s.summary      = "工行e支付SDK"
 
   s.description  = "工行e支付SDK，包含微信支付SDK、支付宝支付"
@@ -32,7 +32,7 @@ Pod::Spec.new do |s|
       
   s.dependency     'WechatOpenSDK'
 
-  s.dependency     'AFNetworking', '~> 3.0'
+  s.dependency     'AFNetworking', '~> 4.0'
 
   s.dependency     'Toast', '4.0.0'
 
