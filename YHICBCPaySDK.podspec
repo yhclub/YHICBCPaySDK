@@ -2,10 +2,10 @@
 Pod::Spec.new do |s|
 
   s.name         = "YHICBCPaySDK"
-  s.version      = "1.0.7"
+  s.version      = "1.0.8"
   s.summary      = "工行e支付SDK"
 
-  s.description  = "工行e支付SDK，包含微信支付SDK、支付宝支付"
+  s.description  = "工行e支付SDK，包含微信支付SDK、支付宝支付; update SDK支付接入文档20200904 "
 
   s.homepage     = "https://github.com/XmYlzYhkj/YHICBCPaySDK"
 
@@ -34,8 +34,8 @@ Pod::Spec.new do |s|
 
   s.dependency     'AFNetworking', '~> 4.0'
 
-  s.dependency     'Toast', '4.0.0'
+  s.dependency     'Toast', '~> 4.0.0'
 
-  s.dependency     'GTMBase64', '1.0.1'
+  #s.dependency     'GTMBase64', '1.0.1'
 
 end

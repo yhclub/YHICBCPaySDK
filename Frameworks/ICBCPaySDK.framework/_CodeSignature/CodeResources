@@ -6,15 +6,27 @@
 	<dict>
 		<key>Headers/ICBCPaySDK.h</key>
 		<data>
-		cQxx9I5D+LtoNNpDmb2w+iB2WcM=
+		Tfr7a+4CkeMN6KiXTtzfKRTEyhU=
+		</data>
+		<key>ICBCPaySDK.bundle/ICBCWebViewJavascriptBridge.js.txt</key>
+		<data>
+		/m97cRGgXUPzOzp6x9F4LXW7Y94=
+		</data>
+		<key>ICBCWebViewJavascriptBridge.js.txt</key>
+		<data>
+		/m97cRGgXUPzOzp6x9F4LXW7Y94=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		mwYqhcohbDinIDGQx7ws91g7B8g=
+		Q+sBkeof+4Ziqb91jXThmioP+6I=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
 		9MmF3qSkBrtwhNHAsfhy43QLFo0=
+		</data>
+		<key>README.md</key>
+		<data>
+		37dTP+LxW9Nu0ucLmPZbs1qXR0Y=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -23,11 +35,33 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			cQxx9I5D+LtoNNpDmb2w+iB2WcM=
+			Tfr7a+4CkeMN6KiXTtzfKRTEyhU=
 			</data>
 			<key>hash2</key>
 			<data>
-			lXfH0mnnzdvFPS2JJLdQpM9yptOeiCZ+KyDHLZoun7I=
+			GxxHgSRSQBUrAoj7AU46UTKGOjfnfW4R2pQEEK/rC38=
+			</data>
+		</dict>
+		<key>ICBCPaySDK.bundle/ICBCWebViewJavascriptBridge.js.txt</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			/m97cRGgXUPzOzp6x9F4LXW7Y94=
+			</data>
+			<key>hash2</key>
+			<data>
+			Bt00kw+NjGr8ibO+mfu873d2gjVVw4BXTnwJX38iXXQ=
+			</data>
+		</dict>
+		<key>ICBCWebViewJavascriptBridge.js.txt</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			/m97cRGgXUPzOzp6x9F4LXW7Y94=
+			</data>
+			<key>hash2</key>
+			<data>
+			Bt00kw+NjGr8ibO+mfu873d2gjVVw4BXTnwJX38iXXQ=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -41,10 +75,21 @@
 			2nYhMs4HbD2uxr251u7TBlPEZvuFsqWigUB7Ab5TR8I=
 			</data>
 		</dict>
+		<key>README.md</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			37dTP+LxW9Nu0ucLmPZbs1qXR0Y=
+			</data>
+			<key>hash2</key>
+			<data>
+			4E4xWnOI/+D9W/sQksgB8bzX67imV4l39dvjKOIt6ps=
+			</data>
+		</dict>
 	</dict>
 	<key>rules</key>
 	<dict>
-		<key>^</key>
+		<key>^.*</key>
 		<true/>
 		<key>^.*\.lproj/</key>
 		<dict>
@@ -75,24 +120,12 @@
 			<key>weight</key>
 			<real>11</real>
 		</dict>
-		<key>^</key>
-		<dict>
-			<key>weight</key>
-			<real>20</real>
-		</dict>
 		<key>^(.*/)?\.DS_Store$</key>
 		<dict>
 			<key>omit</key>
 			<true/>
 			<key>weight</key>
 			<real>2000</real>
-		</dict>
-		<key>^(Frameworks|SharedFrameworks|PlugIns|Plug-ins|XPCServices|Helpers|MacOS|Library/(Automator|Spotlight|LoginItems))/</key>
-		<dict>
-			<key>nested</key>
-			<true/>
-			<key>weight</key>
-			<real>10</real>
 		</dict>
 		<key>^.*</key>
 		<true/>
@@ -128,13 +161,6 @@
 			<true/>
 			<key>weight</key>
 			<real>20</real>
-		</dict>
-		<key>^[^/]+$</key>
-		<dict>
-			<key>nested</key>
-			<true/>
-			<key>weight</key>
-			<real>10</real>
 		</dict>
 		<key>^embedded\.provisionprofile$</key>
 		<dict>
