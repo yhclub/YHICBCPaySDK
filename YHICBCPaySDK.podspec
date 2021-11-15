@@ -2,7 +2,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "YHICBCPaySDK"
-  s.version      = "1.0.9"
+  s.version      = "1.1.0"
   s.summary      = "工行e支付SDK"
 
   s.description  = "工行e支付SDK，包含微信支付SDK、支付宝支付; update SDK支付接入文档20200904 "
